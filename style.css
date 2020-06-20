@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  width: 1170px;
+  margin: auto;
+}
+header {
+  background: url;
+}
+.nav-area {
+  float: right;
+  list-style: none;
+  margin-top: 30px;
+}
+.nav-area li {
+  display: inline-block;
+}
+.nav-area li a {
+  color: #000;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+.nav-area li a:hover {
+  background: blueviolet;
+  color: chartreuse;
+}
+.logo img {
+  margin: 30px;
+  width: 100px;
+  float: left;
+  height: auto;
+}
+.welcome-text {
+  position: absolute;
+  height: 600px;
+  width: 300px;
+  margin: 20% 30%;
+  text-align: center;
+}
+.welcome-text h1 {
+  text-align: center;
+  color: crimson;
+  text-transform: uppercase;
+  font-size: 60px;
+}
